@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-14 COMIENZO DEL PROYECTO "
+message="$(date)2022-10-14 +application.properties"
 fi
 
 start=`date +%s`
