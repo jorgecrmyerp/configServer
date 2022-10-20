@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-20 ++ endpoint obtener-configuracion items"
+message="$(date)2022-10-20 todo ok menos pruebas controller"
 fi
 
 start=`date +%s`
