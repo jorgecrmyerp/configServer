@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-20 ++POM SERVICIO ALUMNOS"
+message="$(date)2022-10-20 ++ endpoint obtener-configuracion items"
 fi
 
 start=`date +%s`
