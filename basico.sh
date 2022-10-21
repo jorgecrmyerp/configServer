@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date) 2022-10-10 REPASADOS PROPERTIES CON CONFIG-SERVER Y EUREKA QUE APUNTA A CONTENEDORES"
+message="$(date) 2022-10-21 SIN CONFIG SERVER"
 fi
 
 git add .
