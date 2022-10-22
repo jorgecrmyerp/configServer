@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-22 Capa de servicio y de controlador generica"
+message="$(date)2022-10-22 PROPERTIES CURSOS Y CONTROLADOR GENERICO"
 fi
 
 start=`date +%s`
