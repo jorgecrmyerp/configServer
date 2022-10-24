@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-24 ++REsilience4j"
+message="$(date)2022-10-24 ++REsilience4j+parametro timeout"
 fi
 
 start=`date +%s`
