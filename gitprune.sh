@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-24 ++no va resilience4j, ++zipkin"
+message="$(date)2022-10-24 ++136 incluido zipkin"
 fi
 
 start=`date +%s`
