@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date) 2022-10-22 ++query insert curso_alumnos"
+message="$(date)2022-10-27 REFRESCO ENTORNO,ERROR RARO"
 fi
 
 git add .
