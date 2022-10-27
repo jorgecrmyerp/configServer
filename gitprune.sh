@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-27 properties de respuestas"
+message="$(date)2022-10-27 PTE PROBAR RESPUESTAS"
 fi
 
 start=`date +%s`
