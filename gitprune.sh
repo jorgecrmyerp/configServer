@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-10-27 CENTRALIZADO ACCESO BBDD EN APPLICATION.PROPERTIES Y SE VE LA FOTO"
+message="$(date)2022-10-28 spring.jpa.hibernate.ddl-auto=update"
 fi
 
 start=`date +%s`
